@@ -1,6 +1,6 @@
-const counterValue = document.getElementById("counter")
+const counterValue = document.getElementById("counter");
 
-const decrementBtn = document.querySelector('.counter button[data-action="decrement"]')
+const decrementBtn = document.querySelector('.counter button[data-action="decrement"]');
 const incrementBtn = document.querySelector('.counter button [data-action="increment"]');
 const resetBtn = document.querySelector("#value");
 
@@ -23,4 +23,4 @@ function value() {
 
 
 
-console.log(counterValue);
+console.log(counter);
