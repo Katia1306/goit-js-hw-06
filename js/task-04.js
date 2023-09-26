@@ -8,13 +8,13 @@ let counter = 0;
 
 incrementBtn.addEventListener('click', () => {
     counter +=1;
-    counterValue.innerHTML = counter;
+    resultBtn.textContent = counter;
 });
 decrementBtn.addEventListener('click', () => {
     counter -=1;
-    counterValue.innerHTML = counter;
+    resultBtn.textContent = counter;
 });
 
-resultBtn.textContent = counter;
 
-console.log(counter);
+
+console.log(resultBtn);

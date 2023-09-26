@@ -13,17 +13,18 @@ function handlerSubmit(event) {
         email: email.value,
         password: password.value
     }
-    console.log(data);
    
-    
-    event.currentTarget.reset()
+   
+
+  if(email === ""  || password === "") {
+    return alert(message);
 }
-  if(email === "", password === "") {
-        alert(message);
-}
-console.log(alert);
 
 
+  console.log(data);   
+
+event.currentTarget.reset()
+
     
-   
+   }
  
