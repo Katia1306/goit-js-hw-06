@@ -16,7 +16,7 @@ function handlerSubmit(event) {
    
    
 
-  if(email === ""  || password === "") {
+  if(email === "" || password === "") {
     return alert(message);
 }
 
