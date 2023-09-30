@@ -16,8 +16,8 @@ function handlerSubmit(event) {
    
    
 
-  if(email === "" || password === "") {
-    return alert(message);
+  if(email.value === "" || password.value === "") {
+    return alert("All fields must be filled!");
 }
 
 
